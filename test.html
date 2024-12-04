@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function roundToPowerOfTen(num, pow) {
+            const a = 10 ** pow;
+            const b = num / a;
+            const c = Math.round(b);
+            result = c * a;
+            console.log(result);
+            return result;
+
+        }
+
+        roundToPowerOfTen(1234, 2);
+    </script>
+    
+</body>
+</html>
